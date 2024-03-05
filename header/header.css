@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    height: 150px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow, green);
+  
+    flex-direction: column;
+    height: auto;
+  }
+  #logo{ 
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 150px;
+    
+  }
+
+  .btn-header{
+    background-color: black;
+    color: aliceblue;
+    width: 6rem;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+.btn-header:hover{ 
+  cursor: pointer;
+  background-color: transparent;
+}
+
+
+  header #btns{
+ display: flex;
+ padding: 0.3rem 0.3rem 0 0.3rem;
+ flex-direction: column;
+ align-items: flex-end;
+ position: absolute;
+ }
+
+header #btns #btn-login{
+
+margin-top: 0.3rem;
+
+}
+ 

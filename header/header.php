@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="header/style.css" type="text/css">
-      
-      <title>LadraStore</title>
 
-      <style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="header\header.css" type="text/css">
+  <title>LadraStore</title>
 
-
+  <style>
 
 
-</style>
-   </head>
+  </style>
+</head>
 
-   <body>
-       <header><!---semantica de cabeçalho--->
-       
-       
-       <!---logo ladra--->
-       <img id="logo" src="logo1.1.png" alt="" >
+<body>
+  <header><!---semantica de cabeçalho--->
+    <div id="btns">
+      <!---botao de login e de inscrever-se--->
+      <button class="btn-header">inscrever-se</button>
+      <button class="btn-header" id="btn-login">login</button>
 
-       <!---botao de login e de inscrever-se--->
-       
+    </div>
+
+    <!---logo ladra--->
+    <img id="logo" src="logo1.1.png" alt="">
 
 
 
 
-      </header>
+
+
+  </header>
+  
