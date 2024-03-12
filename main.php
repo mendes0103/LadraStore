@@ -6,26 +6,25 @@ include 'header/header.php'
 
 
 <main>
-
-       <div id="menu">
-              <ul>
-                     <li>camisa</li>
-                     <li>calça</li>
-                     <li>tenis</li>
-                     <li>blusa</li>
-                     <li></li>
-                     <li></li>                    
-              
-              </ul>
-
-
-
-
-
-
-       </div>
-
-
+<section id="nav-test">
+	<div id="nav-container">
+		<ul>
+			<li class="nav-li active-nav">
+				<a href="#">Home</a>
+			</li>
+			<li class="nav-li">
+				<a href="#">Projects</a>
+			</li>
+			<li class="nav-li">
+				<a href="#">Pricing</a>
+			</li>
+			<li class="nav-li">
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="line"></div>
+</section>
 
 
 
@@ -33,3 +32,4 @@ include 'header/header.php'
 
 
 </main>
+
